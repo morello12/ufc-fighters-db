@@ -232,4 +232,7 @@ print("Scraping completed")
 conn = sqlite3.connect('data.sqlite')
 df.to_sql('data', conn, if_exists='replace')
 print('Db successfully constructed and saved')
+git add .
+git commit -m "Updated scraper code"
+git push origin main
 conn.close()

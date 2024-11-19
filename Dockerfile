@@ -1,4 +1,4 @@
-FROM openaustralia/buildstep:early_release
+FROM openaustralia/buildstep:latest
 
 COPY requirements.txt .
 

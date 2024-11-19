@@ -1,4 +1,7 @@
 FROM openaustralia/buildstep:latest
+git add .
+git commit -m "Updated scraper code"
+git push origin main
 
 COPY requirements.txt .
 
